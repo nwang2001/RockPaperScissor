@@ -1,0 +1,2 @@
+# Rock, Paper, Scissors Game
+## On the top, the user and computer scores are displayed. On the left side, the player can choose their option. The piggies are buttons. Upon choosing one, the right side will generate an output for the computer. The function will then compare the two outputs to check if player loses or wins.
