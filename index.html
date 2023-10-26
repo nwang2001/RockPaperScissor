@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h1>Rock, Paper, or Scissors? </h1>
+            <h2 id="text-output">Try your luck!</h2>
+        </div>
+    </header>
+
+    <main>
+        <div class="display">
+
+            <div class="player">
+                <h2>Player Score</h2>
+                <p id="player-score">0</p>
+
+                <div class="player-choice">
+                    <p>Choose your player:</p>
+
+                    <div class="choices">
+                        <button ><img id="rock" src="icons/rock.png"></button>
+                        <button ><img id="paper" src="icons/paper.png"></button>
+                        <button ><img id="scissors" src="icons/scissor.png"></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="computer">
+                <h2>Computer Score</h2>
+                <p id="computer-score">0</p>
+
+                <div class="comp-choice">
+                    <p>Computer chose:</p>
+                    <p id="comp-output">
+                        <img id="comp-display" src="icons/rock.png">
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <p>&copy; 2023 Nikki Wang, All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
